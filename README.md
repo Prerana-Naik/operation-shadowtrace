@@ -12,7 +12,7 @@ The objective of this project was to investigate a simulated Linux server compro
 
 Rather than following a guided lab, this project was approached as a realistic DFIR investigation where conclusions were drawn only from the available evidence.
 
-
+```text
 External Attacker
         │
         ▼
@@ -35,7 +35,7 @@ Persistence via Cron
         │
         ▼
 Network Communication
-
+```
 ---
 
 # 🎯 Objectives
@@ -82,7 +82,7 @@ Security Recommendations
 
 # 📂 Repository Structure
 
-
+```text
 │
 ├───Docs
 │       01-Executive-Summary.md
@@ -119,7 +119,7 @@ Security Recommendations
 |  .gitignore
 │   LICENSE
 │   README.md
-
+```
 ---
 
 # 🛠️ Evidence Analysed
@@ -153,7 +153,7 @@ Although the compromise was confirmed, the exact functionality of the payload an
 ---
 
 # 🛡️ MITRE ATT&CK Techniques
-
+```text
 | Tactic | Technique |
 |---------|-----------|
 | Initial Access | Brute Force (T1110) |
@@ -164,7 +164,7 @@ Although the compromise was confirmed, the exact functionality of the payload an
 | Persistence | Create Account (T1136) |
 | Persistence | Scheduled Task/Cron (T1053.003) |
 | Defense Evasion | Clear Command History (T1070.003) |
-
+```
 ---
 
 # 📚 Skills Demonstrated

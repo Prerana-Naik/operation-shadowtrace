@@ -1,0 +1,10 @@
+Netid  State   Recv-Q  Send-Q  Local Address:Port        Peer Address:Port    Process
+tcp    LISTEN  0       128     0.0.0.0:22                0.0.0.0:*
+tcp    LISTEN  0       128     0.0.0.0:80                0.0.0.0:*
+tcp    LISTEN  0       128     127.0.0.1:5432            0.0.0.0:*
+tcp    ESTAB   0       0       10.20.4.15:22             185.220.101.47:51290 users:(("sshd",pid=10118,fd=3))
+tcp    ESTAB   0       0       10.20.4.15:38810          185.220.101.47:8000  users:(("sysupd",pid=10171,fd=4))
+tcp    TIME-WAIT 0     0       10.20.4.15:38790          185.220.101.47:8000
+tcp    TIME-WAIT 0     0       10.20.4.15:38802          185.220.101.47:8000
+tcp    ESTAB   0       0       10.20.4.15:80             10.20.4.51:56210     users:(("apache2",pid=715,fd=6))
+udp    ESTAB   0       0       10.20.4.15:123            time.google.com:123

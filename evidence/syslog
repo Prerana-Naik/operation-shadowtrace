@@ -1,0 +1,34 @@
+Jun 21 20:01:03 prod-linux-01 systemd[1]: Starting Daily apt download activities...
+Jun 21 20:01:09 prod-linux-01 systemd[1]: apt-daily.service: Deactivated successfully.
+Jun 21 21:17:42 prod-linux-01 CRON[8801]: (root) CMD (   /usr/lib/php/sessionclean)
+Jun 21 22:00:01 prod-linux-01 systemd[1]: Starting Cleanup of Temporary Directories...
+Jun 21 22:00:02 prod-linux-01 systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+Jun 22 02:17:03 prod-linux-01 cron[612]: (*system*) RELOAD (/var/spool/cron/crontabs/svc_backup)
+Jun 22 02:19:45 prod-linux-01 kernel: [451029.881233] audit: type=1400 apparmor="ALLOWED" operation="exec" profile="unconfined" name="/usr/bin/wget" pid=10163 comm="bash"
+Jun 22 02:19:58 prod-linux-01 kernel: [451042.550012] audit: type=1400 apparmor="ALLOWED" operation="exec" profile="unconfined" name="/usr/local/bin/.sysupd" pid=10171 comm="bash"
+Jun 22 02:20:00 prod-linux-01 CRON[12000]: (svc_backup) CMD (/usr/local/bin/.sysupd >/dev/null 2>&1)
+Jun 22 02:25:00 prod-linux-01 CRON[12001]: (svc_backup) CMD (/usr/local/bin/.sysupd >/dev/null 2>&1)
+Jun 22 02:30:00 prod-linux-01 CRON[12002]: (svc_backup) CMD (/usr/local/bin/.sysupd >/dev/null 2>&1)
+Jun 22 02:35:00 prod-linux-01 CRON[12003]: (svc_backup) CMD (/usr/local/bin/.sysupd >/dev/null 2>&1)
+Jun 22 02:40:00 prod-linux-01 CRON[12004]: (svc_backup) CMD (/usr/local/bin/.sysupd >/dev/null 2>&1)
+Jun 22 02:45:00 prod-linux-01 CRON[12005]: (svc_backup) CMD (/usr/local/bin/.sysupd >/dev/null 2>&1)
+Jun 22 02:50:00 prod-linux-01 CRON[12006]: (svc_backup) CMD (/usr/local/bin/.sysupd >/dev/null 2>&1)
+Jun 22 02:55:00 prod-linux-01 CRON[12007]: (svc_backup) CMD (/usr/local/bin/.sysupd >/dev/null 2>&1)
+Jun 22 03:00:00 prod-linux-01 CRON[12008]: (svc_backup) CMD (/usr/local/bin/.sysupd >/dev/null 2>&1)
+Jun 22 03:30:00 prod-linux-01 CRON[12014]: (svc_backup) CMD (/usr/local/bin/.sysupd >/dev/null 2>&1)
+Jun 22 04:00:00 prod-linux-01 CRON[12020]: (svc_backup) CMD (/usr/local/bin/.sysupd >/dev/null 2>&1)
+Jun 22 04:30:00 prod-linux-01 CRON[12026]: (svc_backup) CMD (/usr/local/bin/.sysupd >/dev/null 2>&1)
+Jun 22 05:00:00 prod-linux-01 CRON[12032]: (svc_backup) CMD (/usr/local/bin/.sysupd >/dev/null 2>&1)
+Jun 22 05:30:00 prod-linux-01 CRON[12038]: (svc_backup) CMD (/usr/local/bin/.sysupd >/dev/null 2>&1)
+Jun 22 06:00:00 prod-linux-01 CRON[12044]: (svc_backup) CMD (/usr/local/bin/.sysupd >/dev/null 2>&1)
+Jun 22 06:30:00 prod-linux-01 CRON[12050]: (svc_backup) CMD (/usr/local/bin/.sysupd >/dev/null 2>&1)
+Jun 22 07:00:00 prod-linux-01 CRON[12056]: (svc_backup) CMD (/usr/local/bin/.sysupd >/dev/null 2>&1)
+Jun 22 07:30:00 prod-linux-01 CRON[12062]: (svc_backup) CMD (/usr/local/bin/.sysupd >/dev/null 2>&1)
+Jun 22 08:00:00 prod-linux-01 CRON[12068]: (svc_backup) CMD (/usr/local/bin/.sysupd >/dev/null 2>&1)
+Jun 22 08:30:00 prod-linux-01 CRON[12074]: (svc_backup) CMD (/usr/local/bin/.sysupd >/dev/null 2>&1)
+Jun 22 08:45:00 prod-linux-01 CRON[12077]: (svc_backup) CMD (/usr/local/bin/.sysupd >/dev/null 2>&1)
+Jun 22 08:50:00 prod-linux-01 CRON[12078]: (svc_backup) CMD (/usr/local/bin/.sysupd >/dev/null 2>&1)
+Jun 22 08:55:00 prod-linux-01 CRON[12079]: (svc_backup) CMD (/usr/local/bin/.sysupd >/dev/null 2>&1)
+Jun 22 09:00:00 prod-linux-01 CRON[12080]: (svc_backup) CMD (/usr/local/bin/.sysupd >/dev/null 2>&1)
+Jun 22 09:05:00 prod-linux-01 CRON[12081]: (svc_backup) CMD (/usr/local/bin/.sysupd >/dev/null 2>&1)
+Jun 22 09:10:00 prod-linux-01 CRON[12082]: (svc_backup) CMD (/usr/local/bin/.sysupd >/dev/null 2>&1)

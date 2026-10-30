@@ -219,7 +219,7 @@ The evidence package is intentionally simulated to provide a realistic investiga
 
 B.E. Computer Science & Engineering
 
-Aspiring Cloud Security & GRC Professional
+Aspiring Security & GRC Professional
 
 Building practical cybersecurity case studies as part of my learning journey.
 
